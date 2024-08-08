@@ -30,6 +30,11 @@ python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yo
 事前トレーニング済みの重みは公式リポジトリから入手できます。
 ```
 
+### YOLOv5 で物体検出をしてみよう  Windows
+
+https://rinsaka.com/python/yolov5/index.html#google_vignette
+
+
 ### OpenCVとYOLOv5を使って動画切り抜きをしてみる
 
 https://qiita.com/smiler5617/items/c8a0925373eaa89e2aae
