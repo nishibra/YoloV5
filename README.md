@@ -4,6 +4,32 @@
 
 https://qiita.com/john-rocky/items/60af264e3e60f2bc0eb7
 
+#### Yolov5のインストール
+```
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt
+```
+#### トレーニング
+
+以下を指定してトレーニング・スクリプトを開始します。
+```
+python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
+引数は以下のとおりです。
+
+・画像サイズ（正方形の縦横）
+・トレーニング・バッチ数（一度にモデルに入力するデータ数）
+・エポック（何回トレーニング・ループを回すか）
+・データ構成ファイル・パス（上記で作った構成ファイル）
+・事前トレーニング済み重み（一般的なデータセットで学習された重みを用いる）
+
+*事前トレーニング済みの重みを用いずに、１からランダムな重みでトレーニングするときは
+--weights '' --cfg yolov5s.yaml
+と引数を指定することもできますが、ランダムな重みからの学習は非推奨となっています。
+
+事前トレーニング済みの重みは公式リポジトリから入手できます。
+```
+
 ### OpenCVとYOLOv5を使って動画切り抜きをしてみる
 
 https://qiita.com/smiler5617/items/c8a0925373eaa89e2aae
