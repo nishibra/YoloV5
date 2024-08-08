@@ -25,6 +25,23 @@ YOLOv5を用いた物体検出
 
 https://avinton.com/academy/object-detection-using-yolov5/
 
+OpenCVのdnnモジュールのクラス分類で信頼度を[0.0-1.0]にする
+
+https://qiita.com/UnaNancyOwen/items/dc0a3c3afce60cd81d2f
+
+PyTorch Hub
+
+https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading/
+
+機械学習におけるバッチサイズとは？決め方や注意点を解説
+
+https://www.tryeting.jp/column/6047/
+
+
+
+
+
+
 
 
 
