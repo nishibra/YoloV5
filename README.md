@@ -1,6 +1,11 @@
 # Yolo V5 v8
 
 ## 1.まず理解しておくこと
+
+#### YOLOの各バージョンについてまとめ（2024年06月18日時点）
+
+https://qiita.com/tfukumori/items/519d84bf3feb8d246924
+
 ### エポック数（epoch）とステップ数（step）の違い、バッチサイズとは【初級 深層学習講座】
 
 https://tech.aru-zakki.com/deeplearning-epoch-step-batchsize/
