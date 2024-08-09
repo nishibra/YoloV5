@@ -38,7 +38,13 @@ python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yo
 と引数を指定することもできますが、ランダムな重みからの学習は非推奨となっています。
 
 事前トレーニング済みの重みは公式リポジトリから入手できます。
+
+
 ```
+### YOLOv5を利用した学習と物体検出
+
+https://qiita.com/shinya_sun_sun/items/61205f83ea4873c0993d
+
 ### YOLOv8で学習→物体検出】楽に学習データを用意して好きなものを検出してみよう
 
 https://qiita.com/ysv/items/2bc7fe4f927fa2c10156
