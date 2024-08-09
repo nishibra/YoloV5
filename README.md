@@ -1,5 +1,10 @@
 # YoloV5
 
+## まず理解しておくこと
+### エポック数（epoch）とステップ数（step）の違い、バッチサイズとは【初級 深層学習講座】
+
+https://tech.aru-zakki.com/deeplearning-epoch-step-batchsize/
+
 ### Yolov5を独自のデータでトレーニングする
 
 https://qiita.com/john-rocky/items/60af264e3e60f2bc0eb7
