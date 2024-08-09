@@ -1,10 +1,15 @@
 # Yolo V5 v8
 
-## まず理解しておくこと
+## 1.まず理解しておくこと
 ### エポック数（epoch）とステップ数（step）の違い、バッチサイズとは【初級 深層学習講座】
 
 https://tech.aru-zakki.com/deeplearning-epoch-step-batchsize/
 
+#### 機械学習におけるバッチサイズとは？決め方や注意点を解説
+
+https://www.tryeting.jp/column/6047/
+
+## 2.インストールと学習
 ### Yolov5を独自のデータでトレーニングする
 
 https://qiita.com/john-rocky/items/60af264e3e60f2bc0eb7
@@ -39,23 +44,21 @@ python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yo
 https://qiita.com/ysv/items/2bc7fe4f927fa2c10156
 
 
-
+## 推論
 ### YOLOv5 で物体検出をしてみよう  Windows
 
 https://rinsaka.com/python/yolov5/index.html#google_vignette
-
 
 ### OpenCVとYOLOv5を使って動画切り抜きをしてみる
 
 https://qiita.com/smiler5617/items/c8a0925373eaa89e2aae
 
-
-
-
-
+## アノテーション
 #### Roboflow (30000円/月、フリーのは使えない)
 
 https://roboflow.com/annotate?ref=ultralytics
+
+
 
 #### Pytorchでモデルの保存と読み込み
 
@@ -69,11 +72,11 @@ https://tt-tsukumochi.com/archives/1933
 
 https://zenn.dev/gotty/articles/6bd35b25cf3bd9
 
-YOLOv5を用いた物体検出
+#### YOLOv5を用いた物体検出
 
 https://avinton.com/academy/object-detection-using-yolov5/
 
-OpenCVのdnnモジュールのクラス分類で信頼度を[0.0-1.0]にする
+#### OpenCVのdnnモジュールのクラス分類で信頼度を[0.0-1.0]にする
 
 https://qiita.com/UnaNancyOwen/items/dc0a3c3afce60cd81d2f
 
@@ -81,9 +84,7 @@ https://qiita.com/UnaNancyOwen/items/dc0a3c3afce60cd81d2f
 
 https://docs.ultralytics.com/yolov5/tutorials/pytorch_hub_model_loading/
 
-#### 機械学習におけるバッチサイズとは？決め方や注意点を解説
 
-https://www.tryeting.jp/column/6047/
 
 
 
