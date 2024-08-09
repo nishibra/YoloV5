@@ -29,6 +29,11 @@ python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yo
 
 事前トレーニング済みの重みは公式リポジトリから入手できます。
 ```
+### YOLOv8で学習→物体検出】楽に学習データを用意して好きなものを検出してみよう
+
+https://qiita.com/ysv/items/2bc7fe4f927fa2c10156
+
+
 
 ### YOLOv5 で物体検出をしてみよう  Windows
 
