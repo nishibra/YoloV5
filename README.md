@@ -9,6 +9,14 @@ https://tech.aru-zakki.com/deeplearning-epoch-step-batchsize/
 
 https://www.tryeting.jp/column/6047/
 
+#### カスタムデータで学習させたYolov5の推論(Python)
+
+https://nutritionfoodtech.com/2022/10/21/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%A0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%A7%E5%AD%A6%E7%BF%92%E3%81%95%E3%81%9B%E3%81%9Fyolov5%E3%81%AE%E6%8E%A8%E8%AB%96python/
+
+#### YOLOv5の学習時に指定可能なオプションについての解説
+
+https://qiita.com/shinya_sun_sun/items/8c368f3024bf5b0d14aa
+
 ## 2.インストールと学習
 ### Yolov5を独自のデータでトレーニングする
 
