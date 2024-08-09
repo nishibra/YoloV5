@@ -6,6 +6,10 @@
 
 https://qiita.com/tfukumori/items/519d84bf3feb8d246924
 
+### YOLOの家系図（2024）
+
+https://qiita.com/akiralab/items/c8afa523093beeb436dc
+
 ### エポック数（epoch）とステップ数（step）の違い、バッチサイズとは【初級 深層学習講座】
 
 https://tech.aru-zakki.com/deeplearning-epoch-step-batchsize/
