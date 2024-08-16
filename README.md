@@ -68,6 +68,46 @@ https://qiita.com/ysv/items/2bc7fe4f927fa2c10156
 
 https://zenn.dev/matsujirushi/articles/85821b43aa7b98
 
+```
+2. Python 3.11
+Python 3.11をインストールします。
+Ubuntu 24.04にインストールされているPython 3.12では、yolo exportでエラーが発生するので、Python 3.11にします。
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.11 python3.11-dev
+
+3. Python 3.11仮想環境
+Python 3.11の仮想環境を作成して切り替えます。
+
+mkdir env && cd env
+python3.11 -m venv --without-pip yolov8
+. yolov8/bin/activate
+
+4. pip
+pipをインストールします。
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+curlのinstall
+
+python3 get-pip.py
+pip install --upgrade pip
+
+5. YOLOv8
+YOLOv8をインストールします。
+yoloを起動したときにImportError: libGL.so.1: cannot open shared object file: No such file or directoryエラーが出るので、libgl1-mesa-devをインストールしておきます。
+
+sudo apt update && sudo apt install libgl1-mesa-dev
+pip3 install ultralytics
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+```
+
+
+
+
+
+
 ## 推論
 ### YOLOv5 で物体検出をしてみよう  Windows
 
