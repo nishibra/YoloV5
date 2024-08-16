@@ -66,6 +66,7 @@ https://qiita.com/shinya_sun_sun/items/61205f83ea4873c0993d
 
 https://qiita.com/ysv/items/2bc7fe4f927fa2c10156
 
+https://zenn.dev/matsujirushi/articles/85821b43aa7b98
 
 ## 推論
 ### YOLOv5 で物体検出をしてみよう  Windows
